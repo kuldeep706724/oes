@@ -1,0 +1,71 @@
+body{
+    background-color: grey;
+}
+#data3{
+  width: 76%;
+    /* height: 350px; */
+    background-color: rebeccapurple;
+    background-repeat: no-repeat;
+    float: right;
+    margin-right: 4%;
+    margin-top: -2%;
+    border-radius: 19px;
+    box-shadow: inset 0 0 20px 10px black;
+}
+
+.title{
+    position: relative;
+height: 40px;
+padding-top: 17px;
+float: left;
+padding-left: 15px;
+padding-right: 15px;
+font-size: 21px;
+color: white;
+border-radius: 4px;
+margin-left: 28%;
+text-align: center;
+margin-top: 10%;
+background: linear-gradient(30deg, purple, gold);
+box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(233, 0, 0, 0.4);
+}
+
+.title1{
+   position: relative;
+    height: 20px;
+    padding-top: -4px;
+    float: left;
+    padding-left: 14px;
+    padding-right: 13px;
+    font-size: 21px;
+    color: white;
+    border-radius: 4px;
+    margin-left: 0%;
+    text-align: center;
+    margin-top: -2px;
+    background: linear-gradient(30deg, purple, gold);
+    box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(233, 0, 0, 0.4);
+
+}
+
+
+table{
+	outline: none;
+    width: 600px;
+    border: 5px;
+    box-shadow: inset 0 0 20px 10px black;
+}
+
+td{
+	background-color: lightslategray;
+    box-shadow: inset 0 0 20px 0px black;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+th{
+	background-color: darkslategray;
+    color: white;
+    box-shadow: inset 0 0 20px 10px black;
+    font-size: 20px;
+}

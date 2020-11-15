@@ -1,0 +1,45 @@
+body{
+	background-image:url("instruction.png");
+	background-size:100%;
+	background-repeat:no-repeat;
+}
+#button{
+	margin-top: 153px;
+    padding: 20px;
+    width: 10%;
+    left: 46%;
+    font-size: 18px;
+    font-family: serif;
+    position: fixed;
+    font-weight: bold;
+    box-shadow: 0px -20px 10px 0px black;
+    background-color: darkcyan;
+    text-shadow: 0px 8px 6px whitesmoke;
+    border: none;
+    cursor: pointer;
+}
+#select{
+	margin-top: 0%;
+    padding: 10px;
+    font-family: serif;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #17e449;
+    box-shadow: inset 0px 0px 20px 0px black;
+}
+.v11{
+width: 200px;
+    height: 8px;
+    background-color: darkcyan;
+    display: block;
+    position: relative;
+    border-radius: 5px;
+    /* left: 0%; */
+    margin-top: -44px;
+    box-shadow: 0px 15px 12px 0px #000;
+}
+.inst{
+font-size: 31px;
+    color: darkcyan;
+    text-shadow: 0px 10px 10px black;
+}

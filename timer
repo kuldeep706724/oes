@@ -1,0 +1,35 @@
+<script type="text/javascript">	
+if(sessionStorage.m )
+	{
+	}else{sessionStorage.m=<%=min%>;sessionStorage.s=<%=sec%>;}
+document.getElementById("timer").innerHTML =sessionStorage.m+":"+sessionStorage.s;
+startTimer();
+
+function startTimer() 
+{
+  var time = document.getElementById('timer').innerHTML;
+  var timeArray = time.split(":");
+  var m = timeArray[0];
+  var s = checkSecond((timeArray[1] - 1));
+  
+  if(s==59){m=m-1}
+  sessionStorage.m=m;
+  sessionStorage.s=s;
+  document.getElementById('timer').innerHTML =sessionStorage.m+":"+sessionStorage.s;
+  j=setTimeout(startTimer,1000);
+  if(m==0 && s==0 | m<0)
+  {		stop();
+		document.getElementById("submit").click();
+	}
+}
+function checkSecond(sec) {
+  if (sec < 10 && sec >= 0) {sec = "0" + sec;}
+  if (sec < 0) {sec = "59";}
+  return sec;
+}
+function stop(){
+	clearTimeout(j);
+	sessionStorage.removeItem("m");sessionStorage.removeItem("s");
+	return true;
+}
+</script>

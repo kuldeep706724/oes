@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<body>
+<div id="Time"><font id="timer" >5:00</font></div>
+<script>
+if(localStorage.m )
+	{
+	}else{localStorage.m=5;localStorage.s=00;}
+document.getElementById("timer").innerHTML =localStorage.m+":"+localStorage.s;
+startTimer();
+
+function startTimer() 
+{
+  var time = document.getElementById('timer').innerHTML;
+  var timeArray = time.split(":");
+  var m = timeArray[0];
+  var s = checkSecond((timeArray[1] - 1));
+  
+  if(s==59){m=m-1}
+  localStorage.m=m;
+  localStorage.s=s;
+  document.getElementById('timer').innerHTML =localStorage.m+":"+localStorage.s;
+  j=setTimeout(startTimer,1000);
+  if(m==0 && s==0 | m<0)
+  {		stop();
+		window.location="ExamStart.jsp?b3=submit ";
+	}
+}
+function checkSecond(sec) {
+  if (sec < 10 && sec >= 0) {sec = "0" + sec;}
+  if (sec < 0) {sec = "59";}
+  return sec;
+}
+
+</script>
+</body>
+</html>

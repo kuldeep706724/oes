@@ -1,0 +1,69 @@
+body{
+    background-color: grey;
+}
+#data3{
+        width: 37%;
+    height: 150px;
+    background-color: white;
+    background-repeat: no-repeat;
+    float: right;
+    margin-right: 43%;
+    margin-top: -2%;
+}
+#data4{
+   width: 39%;
+   height:200px;
+    background-color: rebeccapurple;
+    background-repeat: no-repeat;
+    float: right;
+    margin-right: 35%;
+    margin-top: -2%;
+	border-radius: 18px;
+	box-shadow: 0 0 20px 5px black;
+}
+
+
+.title1{
+    position: relative;
+    height: 40px;
+    padding-top: 17px;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 21px;
+    color: white;
+    border-radius: 4px;
+    margin-left: 30%;
+    text-align: center;
+    margin-top: 8%;
+    background: linear-gradient(30deg, purple, gold);
+    box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(233, 0, 0, 0.4);
+}
+
+
+
+
+table{
+	width:450px;
+	box-shadow: 0 0 20px 5px black;
+}
+td{
+	background-color: lightslategrey;
+    box-shadow: inset 0 0 20px 0px black;
+    font-weight: bold;
+    color: white;
+}
+th{
+	background-color: darkslategrey;
+    box-shadow: inset 0 0 20px black;
+    color: wheat;
+}
+
+
+
+
+
+
+
+
+
